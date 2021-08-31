@@ -14,7 +14,8 @@
 ```cpp
 std::cout << vector<int>(5,10) ;   // 10 10 10 10 10
 // 2-dimension vector
-vector< vector<int>> v2{ {1,2,3}, {4,5,6} };                                                         std::cout << v2;	 // 1 2 3
+vector< vector<int>> v2{ {1,2,3}, {4,5,6} }; 
+std::cout << v2;	 // 1 2 3
 									// 4 5 6
 									// size(2,3)
 ```
