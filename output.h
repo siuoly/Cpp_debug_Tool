@@ -27,7 +27,7 @@ int main( ){
   // 1->2->3->4->5
 
 
-  cout << make_tuple( 1,2,3,'a',1.123) 
+  cout << make_tuple( 1,2,3,'a',1.123) ;
   cout << make_pair('a',10);
 
   cout << map{ make_pair("a",1) , 
